@@ -1,12 +1,14 @@
 package com.grzegorz.jurkiewicz.weather.model;
 
+import java.time.LocalDateTime;
+
 public class WeatherModel {
     private mainInfo main;
     private windInfo wind;
     private cloudsInfo clouds;
     private sysInfo sys;
     private String name;
-    private double dt;
+    private long dt;
 
     public mainInfo getMain() {
         return main;
@@ -48,11 +50,11 @@ public class WeatherModel {
         this.name = name;
     }
 
-    public double getDt() {
+    public long getDt() {
         return dt;
     }
 
-    public void setDt(double dt) {
+    public void setDt(long dt) {
         this.dt = dt;
     }
 
@@ -64,7 +66,7 @@ public class WeatherModel {
                 ", cloud=" + clouds +
                 ", sys=" + sys +
                 ", name='" + name + '\'' +
-                ", dt=" + dt +
+                ", dt=" + LocalDateTime.of(1970,1,1,0,0,0).plusSeconds(dt) +
                 '}';
     }
 
@@ -118,11 +120,11 @@ public class WeatherModel {
         @Override
         public String toString() {
             return "mainInfo{" +
-                    "temp=" + temp +
+                    "temp=" + (temp - 273) +
                     ", pressure=" + pressure +
                     ", humidity=" + humidity +
-                    ", temp_min=" + temp_min +
-                    ", temp_max=" + temp_max +
+                    ", temp_min=" + (temp_min - 273) +
+                    ", temp_max=" + (temp_max - 273) +
                     '}';
         }
     }
@@ -167,8 +169,8 @@ public class WeatherModel {
 
     public class sysInfo {
         private String country;
-        private double sunrise;
-        private double sunset;
+        private long sunrise;
+        private long sunset;
 
         public String getCountry() {
             return country;
@@ -178,19 +180,19 @@ public class WeatherModel {
             this.country = country;
         }
 
-        public double getSunrise() {
+        public long getSunrise() {
             return sunrise;
         }
 
-        public void setSunrise(double sunrise) {
+        public void setSunrise(long sunrise) {
             this.sunrise = sunrise;
         }
 
-        public double getSunset() {
+        public long getSunset() {
             return sunset;
         }
 
-        public void setSunset(double sunset) {
+        public void setSunset(long sunset) {
             this.sunset = sunset;
         }
 
@@ -198,8 +200,8 @@ public class WeatherModel {
         public String toString() {
             return "sysInfo{" +
                     "country='" + country + '\'' +
-                    ", sunrise=" + sunrise +
-                    ", sunset=" + sunset +
+                    ", sunrise=" + LocalDateTime.of(1970,1,1,0,0,0).plusSeconds(sunrise) +
+                    ", sunset=" + LocalDateTime.of(1970,1,1,0,0,0).plusSeconds(sunset) +
                     '}';
         }
     }

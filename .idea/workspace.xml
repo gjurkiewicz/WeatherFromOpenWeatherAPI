@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cba38e5-134e-4e2c-a660-0c34f48b568e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/controller/weatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/controller/WeatherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,25 +27,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="441" />
-          <entry key="txt" value="15" />
+          <entry key="java" value="543" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="441" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="JAVA" value="543" />
+          <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -56,197 +56,64 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.23678647">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/controller/WeatherController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#105#106#0" expanded="true" />
-                    <element signature="e#141#142#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#260#261#0" expanded="true" />
-                    <element signature="e#287#288#0" expanded="true" />
-                    <element signature="e#329#330#0" expanded="true" />
-                    <element signature="e#361#362#0" expanded="true" />
-                    <element signature="e#394#395#0" expanded="true" />
-                    <element signature="e#421#422#0" expanded="true" />
-                    <element signature="e#463#464#0" expanded="true" />
-                    <element signature="e#495#496#0" expanded="true" />
-                    <element signature="e#532#533#0" expanded="true" />
-                    <element signature="e#560#561#0" expanded="true" />
-                    <element signature="e#603#604#0" expanded="true" />
-                    <element signature="e#637#638#0" expanded="true" />
-                    <element signature="e#668#669#0" expanded="true" />
-                    <element signature="e#694#695#0" expanded="true" />
-                    <element signature="e#733#734#0" expanded="true" />
-                    <element signature="e#763#764#0" expanded="true" />
-                    <element signature="e#794#795#0" expanded="true" />
-                    <element signature="e#821#822#0" expanded="true" />
-                    <element signature="e#861#862#0" expanded="true" />
-                    <element signature="e#893#894#0" expanded="true" />
-                    <element signature="e#919#920#0" expanded="true" />
-                    <element signature="e#944#945#0" expanded="true" />
-                    <element signature="e#977#978#0" expanded="true" />
-                    <element signature="e#1005#1006#0" expanded="true" />
-                    <element signature="e#1521#1522#0" expanded="true" />
-                    <element signature="e#1548#1549#0" expanded="true" />
-                    <element signature="e#1585#1586#0" expanded="true" />
-                    <element signature="e#1617#1618#0" expanded="true" />
-                    <element signature="e#1649#1650#0" expanded="true" />
-                    <element signature="e#1680#1681#0" expanded="true" />
-                    <element signature="e#1725#1726#0" expanded="true" />
-                    <element signature="e#1765#1766#0" expanded="true" />
-                    <element signature="e#1797#1798#0" expanded="true" />
-                    <element signature="e#1828#1829#0" expanded="true" />
-                    <element signature="e#1873#1874#0" expanded="true" />
-                    <element signature="e#1913#1914#0" expanded="true" />
-                    <element signature="e#1945#1946#0" expanded="true" />
-                    <element signature="e#1976#1977#0" expanded="true" />
-                    <element signature="e#2021#2022#0" expanded="true" />
-                    <element signature="e#2061#2062#0" expanded="true" />
-                    <element signature="e#2093#2094#0" expanded="true" />
-                    <element signature="e#2124#2125#0" expanded="true" />
-                    <element signature="e#2169#2170#0" expanded="true" />
-                    <element signature="e#2209#2210#0" expanded="true" />
-                    <element signature="e#2597#2598#0" expanded="true" />
-                    <element signature="e#2625#2626#0" expanded="true" />
-                    <element signature="e#2664#2665#0" expanded="true" />
-                    <element signature="e#2698#2699#0" expanded="true" />
-                    <element signature="e#3164#3165#0" expanded="true" />
-                    <element signature="e#3201#3202#0" expanded="true" />
-                    <element signature="e#3246#3247#0" expanded="true" />
-                    <element signature="e#3290#3291#0" expanded="true" />
-                    <element signature="e#3631#3632#0" expanded="true" />
-                    <element signature="e#3669#3670#0" expanded="true" />
-                    <element signature="e#3719#3720#0" expanded="true" />
-                    <element signature="e#3765#3766#0" expanded="true" />
-                    <element signature="e#3803#3804#0" expanded="true" />
-                    <element signature="e#3841#3842#0" expanded="true" />
-                    <element signature="e#3891#3892#0" expanded="true" />
-                    <element signature="e#3937#3938#0" expanded="true" />
-                    <element signature="e#3974#3975#0" expanded="true" />
-                    <element signature="e#4011#4012#0" expanded="true" />
-                    <element signature="e#4059#4060#0" expanded="true" />
-                    <element signature="e#4103#4104#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3502">
-                  <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
-                  <folding>
-                    <element signature="e#260#261#0" expanded="true" />
-                    <element signature="e#287#288#0" expanded="true" />
-                    <element signature="e#329#330#0" expanded="true" />
-                    <element signature="e#361#362#0" expanded="true" />
-                    <element signature="e#394#395#0" expanded="true" />
-                    <element signature="e#421#422#0" expanded="true" />
-                    <element signature="e#463#464#0" expanded="true" />
-                    <element signature="e#495#496#0" expanded="true" />
-                    <element signature="e#530#531#0" expanded="true" />
-                    <element signature="e#558#559#0" expanded="true" />
-                    <element signature="e#603#604#0" expanded="true" />
-                    <element signature="e#637#638#0" expanded="true" />
-                    <element signature="e#668#669#0" expanded="true" />
-                    <element signature="e#694#695#0" expanded="true" />
-                    <element signature="e#733#734#0" expanded="true" />
-                    <element signature="e#763#764#0" expanded="true" />
-                    <element signature="e#794#795#0" expanded="true" />
-                    <element signature="e#821#822#0" expanded="true" />
-                    <element signature="e#861#862#0" expanded="true" />
-                    <element signature="e#893#894#0" expanded="true" />
-                    <element signature="e#919#920#0" expanded="true" />
-                    <element signature="e#944#945#0" expanded="true" />
-                    <element signature="e#977#978#0" expanded="true" />
-                    <element signature="e#1005#1006#0" expanded="true" />
-                    <element signature="e#1521#1522#0" expanded="true" />
-                    <element signature="e#1548#1549#0" expanded="true" />
-                    <element signature="e#1585#1586#0" expanded="true" />
-                    <element signature="e#1617#1618#0" expanded="true" />
-                    <element signature="e#1649#1650#0" expanded="true" />
-                    <element signature="e#1680#1681#0" expanded="true" />
-                    <element signature="e#1725#1726#0" expanded="true" />
-                    <element signature="e#1765#1766#0" expanded="true" />
-                    <element signature="e#1797#1798#0" expanded="true" />
-                    <element signature="e#1828#1829#0" expanded="true" />
-                    <element signature="e#1873#1874#0" expanded="true" />
-                    <element signature="e#1913#1914#0" expanded="true" />
-                    <element signature="e#1945#1946#0" expanded="true" />
-                    <element signature="e#1976#1977#0" expanded="true" />
-                    <element signature="e#2021#2022#0" expanded="true" />
-                    <element signature="e#2061#2062#0" expanded="true" />
-                    <element signature="e#2093#2094#0" expanded="true" />
-                    <element signature="e#2124#2125#0" expanded="true" />
-                    <element signature="e#2169#2170#0" expanded="true" />
-                    <element signature="e#2209#2210#0" expanded="true" />
-                    <element signature="e#2597#2598#0" expanded="true" />
-                    <element signature="e#2625#2626#0" expanded="true" />
-                    <element signature="e#2664#2665#0" expanded="true" />
-                    <element signature="e#2698#2699#0" expanded="true" />
-                    <element signature="e#3164#3165#0" expanded="true" />
-                    <element signature="e#3201#3202#0" expanded="true" />
-                    <element signature="e#3246#3247#0" expanded="true" />
-                    <element signature="e#3290#3291#0" expanded="true" />
-                    <element signature="e#3631#3632#0" expanded="true" />
-                    <element signature="e#3669#3670#0" expanded="true" />
-                    <element signature="e#3719#3720#0" expanded="true" />
-                    <element signature="e#3765#3766#0" expanded="true" />
-                    <element signature="e#3803#3804#0" expanded="true" />
-                    <element signature="e#3841#3842#0" expanded="true" />
-                    <element signature="e#3891#3892#0" expanded="true" />
-                    <element signature="e#3937#3938#0" expanded="true" />
-                    <element signature="e#3974#3975#0" expanded="true" />
-                    <element signature="e#4011#4012#0" expanded="true" />
-                    <element signature="e#4059#4060#0" expanded="true" />
-                    <element signature="e#4103#4104#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/controller/WeatherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1450">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#3631#3632#0" expanded="true" />
+                <element signature="e#3669#3670#0" expanded="true" />
+                <element signature="e#3719#3720#0" expanded="true" />
+                <element signature="e#3765#3766#0" expanded="true" />
+                <element signature="e#3803#3804#0" expanded="true" />
+                <element signature="e#3841#3842#0" expanded="true" />
+                <element signature="e#3891#3892#0" expanded="true" />
+                <element signature="e#3937#3938#0" expanded="true" />
+                <element signature="e#3974#3975#0" expanded="true" />
+                <element signature="e#4011#4012#0" expanded="true" />
+                <element signature="e#4059#4060#0" expanded="true" />
+                <element signature="e#4103#4104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -294,9 +161,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="40" />
-    <option name="y" value="112" />
-    <option name="width" value="1170" />
-    <option name="height" value="939" />
+    <option name="y" value="596" />
+    <option name="width" value="1822" />
+    <option name="height" value="455" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -403,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553188985848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553190376876" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Akademia Kodu/PogodaGSON-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -411,6 +278,116 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -436,7 +413,7 @@
       <updated>1553114349647</updated>
       <workItem from="1553114354061" duration="2280000" />
       <workItem from="1553116735378" duration="490000" />
-      <workItem from="1553183513964" duration="3315000" />
+      <workItem from="1553183513964" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1553115604840</created>
@@ -494,11 +471,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553116584653</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="model update">
+      <created>1553189297408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553189297408</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6085000" />
+    <option name="totallyTimeSpent" value="7139000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -513,7 +497,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10738255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.347651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,14 +561,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="model update" />
+    <option name="LAST_COMMIT_MESSAGE" value="model update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties class="com.grzegorz.jurkiewicz.weather.model.WeatherModel" method="getCloud">
             <option name="EMULATED" value="true" />
           </properties>
@@ -592,8 +577,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java</url>
-          <line>5</line>
-          <properties field="cloud" class="com.grzegorz.jurkiewicz.weather.model.WeatherModel" />
+          <line>7</line>
+          <properties field="clouds" class="com.grzegorz.jurkiewicz.weather.model.WeatherModel" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -604,8 +589,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/controller.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state>
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -618,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#105#106#0" expanded="true" />
             <element signature="e#141#142#0" expanded="true" />
@@ -629,61 +614,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/grzegorz/jurkiewicz/weather/model/WeatherModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        <state relative-caret-position="-1450">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2061#2062#0" expanded="true" />
-            <element signature="e#2093#2094#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2169#2170#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2597#2598#0" expanded="true" />
-            <element signature="e#2625#2626#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2698#2699#0" expanded="true" />
-            <element signature="e#3164#3165#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
-            <element signature="e#3246#3247#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
             <element signature="e#3631#3632#0" expanded="true" />
             <element signature="e#3669#3670#0" expanded="true" />
             <element signature="e#3719#3720#0" expanded="true" />
