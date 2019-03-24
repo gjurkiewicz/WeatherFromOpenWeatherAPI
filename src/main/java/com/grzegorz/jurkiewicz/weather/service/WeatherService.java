@@ -17,7 +17,7 @@ public class WeatherService {
         //API adres + private key
         String websiteResponse = Utils.redWebsiteContent("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=5d4d3476c80e171f6d7b4f8b4f545718");
 
-                Gson gson = new Gson();
+        Gson gson = new Gson();
 
         WeatherModel weather = gson.fromJson(websiteResponse,WeatherModel.class);
 
