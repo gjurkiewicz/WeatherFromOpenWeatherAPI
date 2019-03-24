@@ -3,42 +3,42 @@ package com.grzegorz.jurkiewicz.weather.model;
 import java.time.LocalDateTime;
 
 public class WeatherModel {
-    private mainInfo main;
-    private windInfo wind;
-    private cloudsInfo clouds;
-    private sysInfo sys;
+    private MainInfo main;
+    private WindsInfo wind;
+    private CloudInfo clouds;
+    private SysInfo sys;
     private String name;
     private long dt;
 
-    public mainInfo getMain() {
+    public MainInfo getMain() {
         return main;
     }
 
-    public void setMain(mainInfo main) {
+    public void setMain(MainInfo main) {
         this.main = main;
     }
 
-    public windInfo getWind() {
+    public WindsInfo getWind() {
         return wind;
     }
 
-    public void setWind(windInfo wind) {
+    public void setWind(WindsInfo wind) {
         this.wind = wind;
     }
 
-    public cloudsInfo getCloud() {
+    public CloudInfo getCloud() {
         return clouds;
     }
 
-    public void setCloud(cloudsInfo cloud) {
+    public void setCloud(CloudInfo cloud) {
         this.clouds = cloud;
     }
 
-    public sysInfo getSys() {
+    public SysInfo getSys() {
         return sys;
     }
 
-    public void setSys(sysInfo sys) {
+    public void setSys(SysInfo sys) {
         this.sys = sys;
     }
 
@@ -66,143 +66,144 @@ public class WeatherModel {
                 ", cloud=" + clouds +
                 ", sys=" + sys +
                 ", name='" + name + '\'' +
-                ", dt=" + LocalDateTime.of(1970,1,1,0,0,0).plusSeconds(dt) +
+                ", dt=" + LocalDateTime.of(1970, 1, 1, 0, 0, 0).plusSeconds(dt) +
                 '}';
     }
 
-    public class mainInfo {
-        private int temp;
-        private int pressure;
-        private int humidity;
-        private int temp_min;
-        private int temp_max;
+    public class MainInfo {
+        private double temp;
+        private double pressure;
+        private double humidity;
+        private double temp_min;
+        private double temp_max;
 
-        public int getTemp() {
+        public double getTemp() {
             return temp;
         }
 
-        public void setTemp(int temp) {
+        public void setTemp(double temp) {
             this.temp = temp;
         }
 
-        public int getPressure() {
+        public double getPressure() {
             return pressure;
         }
 
-        public void setPressure(int pressure) {
+        public void setPressure(double pressure) {
             this.pressure = pressure;
         }
 
-        public int getHumidity() {
+        public double getHumidity() {
             return humidity;
         }
 
-        public void setHumidity(int humidity) {
+        public void setHumidity(double humidity) {
             this.humidity = humidity;
         }
 
-        public int getTemp_min() {
+        public double getTemp_min() {
             return temp_min;
         }
 
-        public void setTemp_min(int temp_min) {
+        public void setTemp_min(double temp_min) {
             this.temp_min = temp_min;
         }
 
-        public int getTemp_max() {
+        public double getTemp_max() {
             return temp_max;
         }
 
-        public void setTemp_max(int temp_max) {
+        public void setTemp_max(double temp_max) {
             this.temp_max = temp_max;
         }
 
         @Override
         public String toString() {
             return "mainInfo{" +
-                    "temp=" + (temp - 273) +
+                    "temp=" + (temp) +
                     ", pressure=" + pressure +
                     ", humidity=" + humidity +
-                    ", temp_min=" + (temp_min - 273) +
-                    ", temp_max=" + (temp_max - 273) +
+                    ", temp_min=" + (temp_min) +
+                    ", temp_max=" + (temp_max) +
                     '}';
         }
     }
 
-    public class windInfo {
-        private int speed;
+    public class WindsInfo {
+        private double speed;
 
-        public int getSpeed() {
+        public double getSpeed() {
             return speed;
         }
 
-        public void setSpeed(int speed) {
+        public void setSpeed(double speed) {
             this.speed = speed;
         }
 
         @Override
         public String toString() {
-            return "windInfo{" +
+            return "WindsInfo{" +
                     "speed=" + speed +
                     '}';
         }
     }
 
-    public class cloudsInfo {
-        private int clouds;
+    public class CloudInfo {
+        private double all;
 
-        public int getClouds() {
-            return clouds;
+        public double getAll() {
+            return all;
+        }
+
+
+        public void setAll(double all) {
+            this.all = all;
         }
 
         @Override
         public String toString() {
-            return "cloudsInfo{" +
-                    "clouds=" + clouds +
-                    '}';
-        }
-
-        public void setClouds(int clouds) {
-            this.clouds = clouds;
-        }
-    }
-
-    public class sysInfo {
-        private String country;
-        private long sunrise;
-        private long sunset;
-
-        public String getCountry() {
-            return country;
-        }
-
-        public void setCountry(String country) {
-            this.country = country;
-        }
-
-        public long getSunrise() {
-            return sunrise;
-        }
-
-        public void setSunrise(long sunrise) {
-            this.sunrise = sunrise;
-        }
-
-        public long getSunset() {
-            return sunset;
-        }
-
-        public void setSunset(long sunset) {
-            this.sunset = sunset;
-        }
-
-        @Override
-        public String toString() {
-            return "sysInfo{" +
-                    "country='" + country + '\'' +
-                    ", sunrise=" + LocalDateTime.of(1970,1,1,0,0,0).plusSeconds(sunrise) +
-                    ", sunset=" + LocalDateTime.of(1970,1,1,0,0,0).plusSeconds(sunset) +
+            return "CloudInfo{" +
+                    "all=" + all +
                     '}';
         }
     }
-}
+        public class SysInfo {
+            private String country;
+            private long sunrise;
+            private long sunset;
+
+            public String getCountry() {
+                return country;
+            }
+
+            public void setCountry(String country) {
+                this.country = country;
+            }
+
+            public long getSunrise() {
+                return sunrise;
+            }
+
+            public void setSunrise(long sunrise) {
+                this.sunrise = sunrise;
+            }
+
+            public long getSunset() {
+                return sunset;
+            }
+
+            public void setSunset(long sunset) {
+                this.sunset = sunset;
+            }
+
+            @Override
+            public String toString() {
+                return "sysInfo{" +
+                        "country='" + country + '\'' +
+                        ", sunrise=" + LocalDateTime.of(1970, 1, 1, 0, 0, 0).plusSeconds(sunrise) +
+                        ", sunset=" + LocalDateTime.of(1970, 1, 1, 0, 0, 0).plusSeconds(sunset) +
+                        '}';
+            }
+        }
+    }
+
