@@ -20,14 +20,17 @@ public class WeatherController {
             city = scanner.nextLine();
             if (city.equals("e")) {
                 break;
+
             }
-           // try {
+
+            try {
                 gui.showWeather(weatherService.getWeather(city));
-          //  } catch (FileNotFoundException e) {
-                System.out.println("Nie ma takiego miasta.");
                 System.out.println();
                 System.out.println("Podaj kolejne miasto lub zakończ wybierając ( e ).");
-        //    }
+           } catch (NullPointerException e) {
+                System.out.println("Nie ma takiego miasta.");
+                System.out.println("Podaj kolejne miasto lub zakończ wybierając ( e ).");
+          }
         }while (flag = true) ;
             System.out.println("Koniec programu.");
         }
