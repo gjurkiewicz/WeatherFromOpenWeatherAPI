@@ -7,6 +7,8 @@ import com.grzegorz.jurkiewicz.weather.view.GUI;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import static javafx.scene.input.KeyCode.Z;
+
 public class WeatherController {
     private WeatherService weatherService = WeatherService.getInstance();
 
@@ -20,9 +22,7 @@ public class WeatherController {
             city = scanner.nextLine();
             if (city.equals("e")) {
                 break;
-
             }
-
             try {
                 gui.showWeather(weatherService.getWeather(city));
                 System.out.println();
