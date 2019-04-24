@@ -1,2 +1,2 @@
 # WeatherFromOpenWeatherAPI
-Aplikacja będzie pobierac pogode w formacie Json  z Open Weather API
+The application download the weather in the Json format from the Open Weather API
